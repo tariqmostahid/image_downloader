@@ -32,6 +32,11 @@ deactivate
 python image_downloader.py 
 ```
 
+## For running test
+```bash
+pytest 
+```
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
