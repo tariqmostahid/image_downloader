@@ -3,25 +3,25 @@
 Image Downloader is a Python Script for downloading images based on `input_images.txt` file's urls.
 
 ## Environment setup
-First we need to download `virtualenv`
+First we need to download `virtualenv` with below command
 
 ```bash
 pip install virtualenv
 ```
-Then 
-```bash 
+Then we have to create a virtual environment for this project
+```bash
 virtualenv -p python3 your_env_name
 ```
 Activating the environment by
-```bash 
+```bash
 source your_env_name/bin/activate
 ```
-Now we have have to install our dependencies.first go to project root the run
+Now we have to install our dependencies. first go to project root then run this command
 ```bash
 pip install -r requirements.txt
 ```
 To Deactivate environment
-```bash 
+```bash
 deactivate
 ```
 
@@ -29,14 +29,14 @@ deactivate
 ## Usage
 
 ```bash
-python image_downloader.py 
+python image_downloader.py
 ```
 
 ## For running test
+For running test, go to project root then run this command
 ```bash
-pytest 
+pytest
 ```
-
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
